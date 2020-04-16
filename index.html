@@ -1,0 +1,20 @@
+<html>
+<body>
+  <h2>Exception Handling</h2>
+  <p id="exception1"></p>
+
+
+<script>
+  try {
+    //Exception source code here
+    alert("Last Class");
+    }
+    catch(error) {
+      document.getElementById('exception1').innerHTML = "Error Message: " + error. message ;
+      alert("Error Message: " + error. message);
+      log("log041320.log" ,error.message);
+      postMessage("SMS",error.message);
+    }
+  </script>
+</body>
+</html>
